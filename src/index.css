@@ -1,13 +1,49 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: local('Lato-Regular'), url(./fonts/Lato-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-LightItalic';
+  src: local('Lato-LightItalic'), url(./fonts/Lato-LightItalic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-Light';
+  src: local('Lato-Light'), url(./fonts/Lato-Light.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-Italic';
+  src: local('Lato-Italic'), url(./fonts/Lato-Italic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-HairlineItalic';
+  src: local('Lato-HairlineItalic'), url(./fonts/Lato-HairlineItalic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: local('Lato-Hairline'), url(./fonts/Lato-Hairline.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-BoldItalic';
+  src: local('Lato-BoldItalic'), url(./fonts/Lato-BoldItalic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: local('Lato-Bold'), url(./fonts/Lato-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-BlackItalic';
+  src: local('Lato-BlackItalic'), url(./fonts/Lato-BlackItalic.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Lato-Black';
+  src: local('Lato-Black'), url(./fonts/Lato-Black.ttf) format('ttf');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Lato-Regular, Lato-LightItalic, Lato-Light, Lato-Italic, Lato-HairlineItalic,
+  Lato-Hairline, Lato-BoldItalic, Lato-Bold, Lato-BlackItalic, Lato-Black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
