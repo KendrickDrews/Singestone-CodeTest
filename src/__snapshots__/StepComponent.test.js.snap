@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders error page on error 1`] = `
+<StepComponent>
+  <div>
+    Error: 
+    test error
+  </div>
+</StepComponent>
+`;
+
+exports[`renders loading page on init 1`] = `
+<StepComponent>
+  <div>
+    Loading...
+  </div>
+</StepComponent>
+`;
+
+exports[`renders steps with mock step data 1`] = `
+<StepComponent>
+  <div
+    className="step-row"
+  >
+    <div
+      className="step-container"
+      key="1"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        1
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        FILL OUT A PROFILE
+      </p>
+      <p
+        className="step-body"
+      >
+        We only want you to get games and gear that you’ll love, so we’ll ask for your preferences up front.
+      </p>
+    </div>
+    <div
+      className="step-container"
+      key="2"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        2
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        REQUEST A DELIVERY
+      </p>
+      <p
+        className="step-body"
+      >
+        Once you’re ready for your first delivery, all it takes is a click to get your shipment on the way.
+      </p>
+    </div>
+    <div
+      className="step-container"
+      key="3"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        3
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        KEEP WHAT YOU WANT
+      </p>
+      <p
+        className="step-body"
+      >
+        Tell us “no thanks” by returning any unwanted products in the enclosed packaging.
+      </p>
+    </div>
+    <div
+      className="step-container"
+      key="4"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        4
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        REQUEST ANOTHER DELIVERY
+      </p>
+      <p
+        className="step-body"
+      >
+        Get your next gaming fix by updating your profile then initiating your next shipment.
+      </p>
+    </div>
+  </div>
+</StepComponent>
+`;
+
+exports[`renders steps with step data 1`] = `
+<StepComponent>
+  <div
+    className="step-row"
+  >
+    <div
+      className="step-container"
+      key="1"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        1
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        FILL OUT A PROFILE
+      </p>
+      <p
+        className="step-body"
+      >
+        We only want you to get games and gear that you’ll love, so we’ll ask for your preferences up front.
+      </p>
+    </div>
+    <div
+      className="step-container"
+      key="2"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        2
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        REQUEST A DELIVERY
+      </p>
+      <p
+        className="step-body"
+      >
+        Once you’re ready for your first delivery, all it takes is a click to get your shipment on the way.
+      </p>
+    </div>
+    <div
+      className="step-container"
+      key="3"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        3
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        KEEP WHAT YOU WANT
+      </p>
+      <p
+        className="step-body"
+      >
+        Tell us “no thanks” by returning any unwanted products in the enclosed packaging.
+      </p>
+    </div>
+    <div
+      className="step-container"
+      key="4"
+    >
+      <p
+        className="step-stepNumber"
+      >
+        0
+        4
+      </p>
+      <hr
+        className="step-separator"
+      />
+      <p
+        className="step-title"
+      >
+        REQUEST ANOTHER DELIVERY
+      </p>
+      <p
+        className="step-body"
+      >
+        Get your next gaming fix by updating your profile then initiating your next shipment.
+      </p>
+    </div>
+  </div>
+</StepComponent>
+`;

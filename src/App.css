@@ -82,14 +82,16 @@
 }
 
 .main-content--container button:hover {
-  background-color: #82ffe8;
+  background-color: #85e5b2;
   transition: 0.5s;
 }
 .main-content--container button:active {
-
+  background-color: #85e5b2;
+  transition: 0.5s;
 }
 .main-content--container button:focus {
-
+  background-color: #85e5b2;
+  transition: 0.5s;
 }
 .how-it-works {
   display: flex;
@@ -109,16 +111,16 @@
   color: #2f3237;
   margin: 3rem 0 -1rem 0;
 }
-.api-row {
+.step-row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  width: 70%;
+  width: 71%;
   margin: 0 auto;  
   height: 76%;
 }
-.api-container {
+.step-container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -126,24 +128,24 @@
   margin: .5rem;
   padding: .75rem;
 }
-.api-stepNumber {  
+.step-stepNumber {  
   font-size: 6rem;
   color: #2f3237;
   margin: 0;
   padding: 0;
 }
-.api-separator {  
+.step-separator {  
   height: 0;
   width: 6rem; 
   border: 0.2rem solid #50e3c2;
 }
-.api-title {
+.step-title {
   font-family: Lato-Bold; 
   font-size: 1.6rem;
   color: #2f3237;
   margin: 1rem 0;
 }
-.api-body {  
+.step-body {  
   font-size: 1.6rem;
   color: #2f3237;
   margin: 0;
@@ -162,12 +164,21 @@
   html {
     font-size: 20px;
   }
+  .step-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 81%;
+    margin: 0 auto;
+    height: 76%;
+}
 }
 @media only screen and (max-width: 1024px) {
   .section-column {
     margin: 1rem 0 5.5rem 2rem;
   }
-  .api-row {
+  .step-row {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -176,7 +187,7 @@
     margin: 0 auto;
     height: 76%;
   }
-  .api-container {
+  .step-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -185,24 +196,24 @@
     padding: 0.75rem;
 
   }
-  .api-stepNumber {
+  .step-stepNumber {
     font-size: 5rem;
     color: #2f3237;
     margin: 0;
     padding: 0;
   }
-  .api-separator {
+  .step-separator {
     height: 0;
     width: 6rem;
     border: 0.2rem solid #50e3c2
   }
-  .api-title {
+  .step-title {
     font-family: Lato-Bold;
     font-size: 1.4rem;
     color: #2f3237;
     margin: 1rem 0;
   }
-  .api-body {
+  .step-body {
     font-size: 1.5rem;
     color: #2f3237;
     margin: 0;
@@ -253,7 +264,7 @@
   .how-it-works {
     height: unset;
   }
-  .api-row {
+  .step-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -262,7 +273,7 @@
     margin: 5rem auto;
     height: 100%;
   }
-  .api-container {
+  .step-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -271,24 +282,24 @@
     padding: 2.75rem;
 
   }
-  .api-stepNumber {
+  .step-stepNumber {
     font-size: 10rem;
     color: #2f3237;
     margin: 0;
     padding: 0;
   }
-  .api-separator {
+  .step-separator {
     height: 0;
     width: 11rem;
     border: 0.2rem solid #50e3c2;
   }
-  .api-title {
+  .step-title {
     font-family: Lato-Bold;
     font-size: 3.6rem;
     color: #2f3237;
     margin: 1rem 0;
   }
-  .api-body {
+  .step-body {
     font-size: 3.6rem;
     color: #2f3237;
     margin: 0;
@@ -336,7 +347,7 @@
   .how-it-works {
     height: unset;
   }
-  .api-row {
+  .step-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -345,7 +356,7 @@
     margin: 5rem auto;
     height: 100%;
   }
-  .api-container {
+  .step-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -353,24 +364,24 @@
     margin: .5rem;
     padding: .75rem;
   }
-  .api-stepNumber {
+  .step-stepNumber {
     font-size: 10rem;
     color: #2f3237;
     margin: 0;
     padding: 0;
   }
-  .api-separator {
+  .step-separator {
     height: 0;
     width: 11rem;
     border: 0.2rem solid #50e3c2;
   }
-  .api-title {
+  .step-title {
     font-family: Lato-Bold;
     font-size: 3.6rem;
     color: #2f3237;
     margin: 1rem 0;
   }
-  .api-body {
+  .step-body {
     font-size: 3.6rem;
     color: #2f3237;
     margin: 0;

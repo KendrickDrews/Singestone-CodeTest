@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './assets/logo-endless.svg';
-import APIRequest from './apiRequest.js';
+import StepComponent from "./StepComponent";
 import './App.css';
 import './index.css';
 
@@ -24,7 +24,7 @@ function App() {
       </main>
       <section className="how-it-works">        
         <p className="section-title">How It Works</p>        
-        <APIRequest/>
+        <StepComponent/>
       </section>
     </div>
   );
